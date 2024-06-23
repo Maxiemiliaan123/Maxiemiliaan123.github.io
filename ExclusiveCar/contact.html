@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Exclusive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body> 
+       <!-- Contact Formulier -->
+       <section class="contact-form">
+        <div class="container">
+            <h3>Stuur ons een bericht</h3>
+            <p>En wij proberen zo snel mogelijk contact op te nemen.</p>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <div class="form-row">
+                    <input type="hidden" name="access_key" value="e9ce83d6-152d-46a5-9cbd-0836851f9165">
+                    <div class="form-group">
+                        <label for="firstname">Voornaam:</label>
+                        <input type="text" id="firstname" name="firstname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Achternaam:</label>
+                        <input type="text" id="lastname" name="lastname" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Telefoonnummer:</label>
+                        <input type="text" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Bericht:</label>
+                    <textarea id="message" name="message" rows="8" required></textarea>
+                </div>
+                <button type="submit" class="contact-btn2">Verzenden</button>
+            </form>
+        </div>
+    </section>
+
+    
+<!-- Footer -->
+<footer class="footer">
+    <div class="container2">
+        <div class="footer-sections">
+            <!-- Link pagina's in de footer -->
+            <div class="footer-section">
+                <h3>Pagina's</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="voorraad.html">Op Voorraad</a></li>
+                    <li><a href="verzekering.html">Verzekeren</a></li>
+                    <li><a href="service.html">Service & Onderhoud</a></li>
+                    <li><a href="overons.html">Over Ons</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- Links om naar een automerk te gaan -->
+            <div class="footer-section">
+                <h3>Merken</h3>
+                <ul>
+                    <li><a href="voorraad.html#Porsche">Porsche</a></li>
+                    <li><a href="voorraad.html#Lambo">Lamborghini</a></li>
+                    <li><a href="voorraad.html#Ferrari">Ferrari</a></li>
+                    <li><a href="voorraad.html#Bentley">Bentley</a></li>
+                    <li><a href="voorraad.html#Aston">Aston Martin</a></li>
+                    <li><a href="voorraad.html#Mase">Maserati</a></li>
+                </ul>
+            </div>
+            <!-- Overige pagina links -->
+            <div class="footer-section">
+                <h3>Overige</h3>
+                <ul>
+                    <li><a href="service.html#FAQ">FAQ</a></li>
+                    <li><a href="overons.html#team">Ons team</a></li>
+                    <li><a href="service.html#serviceteam">Ons service team</a></li>
+                    <li><a href="overons.html#partners">Partners</a></li>
+                    <li><a href="proefrit.html">Proefrit</a></li>
+                </ul>
+            </div>
+            <!-- Volg ons op social media -->
+            <div class="footer-section">
+                <h3>Volg ons</h3>
+                <ul class="social-media">
+                    <li><a href="#"><i class="fa-brands fa-facebook icon"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter icon"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram icon"></i></a></li>
+                </ul> 
+            </div>
+        </div>
+        <div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Exclusive Cars. Alle rechten voorbehouden.</p>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
